@@ -1,0 +1,179 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="">
+    <meta name="description" content="creative place where all your artwork can be shared">
+    <meta name="keywords" content="Creative,artwork,shared">
+    <meta name="author" content="Christopher Mcdowell">
+    <title>CAP | HOME PAGE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="imgs/logo.png" alt="logo" class="logo" width="200" height="75">
+    </div>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+        
+        <ul class="navbar-nav">
+            <li><a href="home.html">H O M E</a></li>
+            <li><a href="archive.html">A R C H I V E</a></li>
+            <li class="current"><a href="about.html">A B O U T</a></li>
+            <li><a href="#">C O N T A C T</a></li>
+            <li2><a href="#">S I G N  U P</a></li2>
+            <li2><a href="#">L O G I N</a></li2>
+        </ul>
+            
+    </nav>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Catagories</a>
+        <a href="#">Forum</a>
+        <a href="#">Jobs</a>
+        <a href="#">Blog</a>
+        <a href="#">Social</a>
+        <a href="#">Faqs</a>
+    </div>
+    
+
+    <script>
+    function openSlideMenu(){
+        document.getElementById('side-menu').style.width = '250px';
+        document.getElementById('main').style.marginLeft = '250px';
+    }
+        
+      function closeSlideMenu(){
+        document.getElementById('side-menu').style.width = '0';
+        document.getElementById('main').style.marginLeft = '0';
+    }
+    </script>
+   <div class="wrapper">
+        <div class="about-container">
+             <div class="page-header">
+                <h1>Archive</h1>
+            </div> 
+            <div class="sub-nav">
+                <div class="btn-group">
+                    <a class="btn1" href="#">Recent</a>
+                     |
+                    <a class="btn2" href="#">Trending</a>
+                     | 
+                    <a class="btn3" href="#">Top Rated</a>
+                </div>
+            </div>
+        
+       <div class="line-separator"></div> 
+        
+        <div class="responsive-gallery"> 
+            <div class="gallery">
+            <a target="_blank" href="concepts/img1.jpg">
+                <img src="concepts/img1.jpg" alt="img1" width="600" height="400">
+            </a>
+                <div class="desc">Image1</div>
+            </div>
+        </div> 
+            
+        <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img10.jpg">
+                <img src="concepts/img2.jpg" alt="img10" width="600" height="400">
+            </a>
+                <div class="desc">Image2</div>
+        </div>
+        </div>
+            
+        <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img3.jpg">
+                <img src="concepts/img3.jpg" alt="img3" width="600" height="400">
+            </a>
+            <div class="desc">Image3</div>
+        </div>
+        </div>
+
+        <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img4.jpg">
+                <img src="concepts/img4.jpg" alt="img4" width="600" height="400">
+            </a>
+            <div class="desc">Image4</div>
+        </div>
+        </div>
+        
+        <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img9.jpg">
+                <img src="concepts/img5.jpg" alt="img5" width="600" height="400">
+            </a>
+            <div class="desc">Image5</div>
+        </div>
+        </div>
+        
+        <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img4.jpg">
+                <img src="concepts/img6.jpg" alt="img6" width="600" height="400">
+            </a>
+            <div class="desc">Image6</div>
+        </div>
+        </div>
+        
+        <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img4.jpg">
+                <img src="concepts/img7.jpg" alt="img7" width="600" height="400">
+            </a>
+            <div class="desc">Image7</div>
+        </div>
+        </div>
+            
+            <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img4.jpg">
+                <img src="concepts/img8.jpg" alt="img8" width="600" height="400">
+            </a>
+            <div class="desc">Image8</div>
+        </div>
+        </div>
+            
+            
+            <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img4.jpg">
+                <img src="concepts/img9.jpg" alt="img9" width="600" height="400">
+            </a>
+            <div class="desc">Image9</div>
+        </div>
+        </div>
+            
+        <div class="responsive-gallery">
+        <div class="gallery">
+            <a target="_blank" href="concepts/img4.jpg">
+                <img src="concepts/img10.jpg" alt="img10" width="600" height="400">
+            </a>
+            <div class="desc">Image10</div>
+        </div>
+        </div>
+            
+            
+     
+    </div>  
+    <div class="separator"></div>
+    <div class="separator-lg"></div>
+</div>
+<footer class="cap-footer">
+    
+    </footer>  
+</body>
+
+<html>

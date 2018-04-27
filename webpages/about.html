@@ -1,0 +1,112 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="">
+    <meta name="description" content="creative place where all your artwork can be shared">
+    <meta name="keywords" content="Creative,artwork,shared">
+    <meta name="author" content="Christopher Mcdowell">
+    <title>CAP | HOME PAGE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="imgs/logo.png" alt="logo" class="logo" width="200" height="75">
+    </div>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+        
+        <ul class="navbar-nav">
+            <li><a href="home.html">H O M E</a></li>
+            <li><a href="archive.html">A R C H I V E</a></li>
+            <li class="current"><a href="about.html">A B O U T</a></li>
+            <li><a href="#">C O N T A C T</a></li>
+            <li2><a href="#">S I G N  U P</a></li2>
+            <li2><a href="#">L O G I N</a></li2>
+        </ul>
+            
+    </nav>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Catagories</a>
+        <a href="#">Forum</a>
+        <a href="#">Jobs</a>
+        <a href="#">Blog</a>
+        <a href="#">Social</a>
+        <a href="#">Faqs</a>
+    </div>
+    
+
+    <script>
+    function openSlideMenu(){
+        document.getElementById('side-menu').style.width = '250px';
+        document.getElementById('main').style.marginLeft = '250px';
+    }
+        
+      function closeSlideMenu(){
+        document.getElementById('side-menu').style.width = '0';
+        document.getElementById('main').style.marginLeft = '0';
+    }
+    </script>
+   <div class="wrapper">
+        <div class="about-container">
+            <div class="page-header">
+                <h1>About Cap</h1>
+            </div> 
+            <div class="row">
+            <div class ="column-1">
+                <div class="single-text">
+                    <h2>A Place for Concept Art</h2>
+                    <p class ="lead">
+                    This website is the ideal place for any graphic artist to post their work in order for it to be shared, commented on, apprecated by anthusists, building a strong portfolio for possible employment into the industry, and to join a loving community with people from similar talents. CAP offers a wide range of tools nessesary for you to get started. here are some of the people that have used CAP share their thoughts on how the website is ran.
+                    </p>
+                </div>
+            </div>
+        </div>
+            <div class="line-separator"></div> 
+            <div class="separator"></div>
+            <div class="row">
+            <div class="profile-cm1">
+                <img class="img-responsive" alt="Jessica" src="assets/jessicahuston.jpg">
+                    <h3>Jessica huston</h3>
+                    <p class="title">2-D illustrator, Story Writer, Freelance concept Artist</p>
+                    <p>Art Institute of Philadelphia</p>
+                    <p>Age: 26</p>
+                    <p>~ <b>AMAZING!</b> this website has almost everything I need to get started on sharing my artwork with other people. Its professionally layed out and I have not seen anything wrong with its make up. honestly the best website to create a porfolio for hands down</p>
+                </div>
+            <div class="profile-cm1">
+                <img class="img-responsive" alt="Alvin" src="assets/alvinchai.jpg" >
+                    <h4>Alvin Chai</h4>
+                    <p class="title">3-D Character design Artist, Animatior, Part-time illustrator </p>
+                    <p>Full Sail University</p>
+                    <p>Age: 27</p>
+                    <p>~ <b>GREAT LOOKS!</b> I recently graduated form Full Sail and was looking around the web for a website to start looking for careers. luckly I found CAP and my journey was set off to a good start. Some of the best state of the art features here for any concept artist to use in hopes of getting hired within the industry.</p>
+                </div>
+            <div class="profile-cm1">
+            <img class="img-responsive" alt="Justin" src="assets/jsutinbeiber.jpg" >
+                <h5>Eric Delmar</h5>
+                <p class="title">Illustrator</p>
+                <p>Drexel University</p>
+                <p>Age: 30</p>
+                <p>~ <b>WONDERFUL!</b> I enjoy making music and other things like that, but from time to time I often find myself looking at art when I just fell like it. I play alot of video games and the one thing that I enjoy is checking out all the artwork behind it. CAP fortunatley for me has alot of submissions form alot of talented poeple and it looks great.</p>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="line-separator"></div> 
+        </div>
+        <div class="separator-lg"></div>
+ </div>
+<footer class="cap-footer">
+    
+    </footer>  
+</body>
+</html>
