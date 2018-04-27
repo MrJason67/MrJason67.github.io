@@ -1,0 +1,115 @@
+body{
+    font-family: Open Sans, helvetica;
+}
+*{Box-sizing: border-box}
+
+
+/*Full-width input fields */
+input[type=test], input[type=password] {
+    width: 100%;
+    padding: 13px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* set a style for all buttons */
+button {
+    background-color: #5c5c5c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* extra styles for cancel button */
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #002D3D;
+}
+
+/* Float cancel and signin buttons add an equal width */
+.cancelbtn, .signupbtn {
+    float:left;
+    width: 50%;
+    
+}
+
+.container {
+    font-family: Futura Lt BT;
+    background-color: #004963;
+    padding: 20px;
+    margin: 0
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #474e5d;
+    padding-top: 50px;
+    
+}
+
+.modal content {
+    background-color: #ffffff;
+    margin: 5px auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+hr {
+    border: 5px solid #f1f1f1;
+    margin-bottom: 25px;
+    
+}
+
+.close{
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336
+        cursor: pointer
+}
+.clearfix::after {
+    content:"";
+    clear: both;
+    display:table;
+    
+}
+
+
+@media screen and (max-width: 300) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+        
+    }
+}

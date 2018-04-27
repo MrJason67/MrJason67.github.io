@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 1.5;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background:url(http://www.conceptart.org/forums/attachment.php?attachmentid=2092106&d=1423146089);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.intro .content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content img{
+    padding: 0px;
+    margin: 0px 10px;
+    float: 
+    
+}
+.content h1{
+    font-family: Futura Lt BT;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #ffffff;
+    text-shadow: 2px 3px 10px #000000;
+    margin:auto;
+}
+
+.content p{
+    font-family: Futura Lt BT;
+    font-size: 19px;
+    margin-top:5px;
+    text-shadow: 2px 3px 5px #000000;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* buttons with hover color*/
+    
+.content a{
+    padding: 12px 34px;
+    margin: 15px;
+    line-height: 9.0;
+    
+}
+
+.content h2{
+    font-family: Futura Hv BT;
+    font-style: italic;
+    color:#ffffff;
+    text-shadow: 2px 3px 9px #000000;
+        
+}
+
+.Enterbtn {
+    font-family: Open Sans;
+    border-style: solid;
+    border-width: 2px;
+    text-shadow: 2px 3px 5px #000000;
+    font-size:20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+
+.Enterbtn:hover{
+    color: #869091;
+}
+
+
+.welcome-footer{
+    margin-top:20%;
+    font-family: Open Sans;
+    color: #ffffff;
+}.welcome-footer p{
+    font-size: 15px;
+}
+
+
+   
+
+
+@media screen and (max-width: 768px) {
+    .content h1{
+        font-size: 250%;
+    }
+    
+    .content p{
+        font-size: 86%;
+    }
+    
+    .loginbtn{
+        font-size: 110%;
+        padding 7px 15px;
+    }
+    
+    .signinbtn {
+        font-size: 110%;
+        padding 7px 15px;
+    }
+    
+}
+  
