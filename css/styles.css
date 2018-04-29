@@ -1,6 +1,3 @@
-
-
-
 body {
     font-family:"futura Lt BT","Open Sans";
     background-color:#071519;
@@ -8,6 +5,9 @@ body {
     line-height: 1.8;
     font-size: 20px;
     letter-spacing: .018em;
+    height: 100vh;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 
@@ -16,6 +16,8 @@ body {
     opacity:;
     background-color:#040c11;
     text-align:center;
+    margin-top: -9;
+   
 }
 
 .navbar {
@@ -23,8 +25,9 @@ body {
     position:relative;
     overflow:hidden;
     height:70px;
-    padding: 3px 5px 5 5;
+    padding: 0px 5px 5 5;
     border-bottom: #ffffff 3px solid;
+    
 }
 
 .navbar a {
@@ -347,6 +350,49 @@ img{
     text-shadow: 2px 3px 5px #000000;
     color:#ffffff
 }
+
+
+//*website forums*//
+
+.signup-container {
+    background-color: #ffffff;
+    
+   
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

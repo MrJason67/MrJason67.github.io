@@ -1,115 +1,145 @@
-body{
-    font-family: Open Sans, helvetica;
+body {
+    font-family:"futura Lt BT","Open Sans";
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),url(https://www.videogamesartwork.com/sites/default/files/images/image/1377178868/diablo3-environment-church-lighting.jpg);
+    color:#cccccc;
+    line-height: 1.8;
+    font-size: 20px;
+    letter-spacing: .018em;
+    height: 100v;
+    background-size:cover;
+    background-position:center;
+    margin-left: -15px;
+    margin-right: -15px;
 }
-*{Box-sizing: border-box}
-
-
-/*Full-width input fields */
-input[type=test], input[type=password] {
-    width: 100%;
-    padding: 13px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #ffffff;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
 }
 
-/* set a style for all buttons */
-button {
-    background-color: #5c5c5c;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: 0;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
+* {box-sizing: border-box}
+
+
+.logo {
+    opacity:;
+    background-color:#040c11;
+    text-align:center;
+    margin-top: -9;
+    
 }
 
-button:hover {
-    opacity: 1;
+.navbar {
+    background-color:#000000;
+    position:relative;
+    overflow:hidden;
+    height:70px;
+    padding: px 5px 5 5;
+    border-bottom: #ffffff 3px solid;
+
 }
 
-
-/* extra styles for cancel button */
-
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #002D3D;
-}
-
-/* Float cancel and signin buttons add an equal width */
-.cancelbtn, .signupbtn {
+.navbar a {
     float:left;
-    width: 50%;
+    display:flex;
+    color:#cccccc;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.navbar ul {
+    margin: 8px 0 0 0;
+    list-style:none;
+    font-size:13px;
+}
+
+.navbar li2 {
+    float:right;
+    margin: 0 0 0 0;
+    list-style:none;
     
 }
 
-.container {
-    font-family: Futura Lt BT;
-    background-color: #004963;
-    padding: 20px;
-    margin: 0
+.navbar a:hover {
+    color:#ffffff;
 }
 
-.modal{
-    display: none;
-    position: fixed;
+.side-nav {
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:#111;
+    overflow-x:hidden;
+    padding-top:60px;
+    transition:0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration:none;
+    font-size:22px;
+    color:#ccc;
+    display:block;
+    transition:0.3s;
+}
+
+.side-nav a:hover {
+    color:#fff;
+}
+
+.side-nav .btn-close {
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size:36px;
+    margin-left:50px;
+}
+
+.signup-page {
+    width: 500px;
+    padding: 10% 0 0;
+    margin:  auto;
+}
+    
+.form{
+    position: relative;
     z-index: 1;
-    left: 0;
-    top: 0;
+    background: rgba(0,0,0,0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form input{
+    outline: 1;
+    background: #f2f2f2;
     width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: #474e5d;
-    padding-top: 50px;
-    
+    border: 0;
+    margin: 0 0 16px;
+    padding: 15px;
+    font-size: 11px
 }
 
-.modal content {
-    background-color: #ffffff;
-    margin: 5px auto 15% auto;
-    border: 1px solid #888;
-    width: 80%;
+.form button {
+    font-family: Futura Lt BT, open-sans;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgba(14,62,87,0.6);
+    width: 100px;
+    height: 30px;
+    border: 0;
+    padding 0 15px;
+    color: #f2f2f2;
+    font-size: 15px;
+    cursor: pointer;
 }
 
-
-hr {
-    border: 5px solid #f1f1f1;
-    margin-bottom: 25px;
-    
-}
-
-.close{
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-    color: #f44336
-        cursor: pointer
-}
-.clearfix::after {
-    content:"";
-    clear: both;
-    display:table;
-    
+.form button:hover{
+    background: rgba(26,120,168,0.6);
+    color:#ffffff;
 }
 
 
-@media screen and (max-width: 300) {
-    .cancelbtn, .signupbtn {
-        width: 100%;
-        
-    }
-}
+.animated

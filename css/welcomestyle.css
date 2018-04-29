@@ -9,10 +9,11 @@ body{
     height: 100%;
     width: 100%;
     margin: 0px;
-    background:url(http://www.conceptart.org/forums/attachment.php?attachmentid=2092106&d=1423146089);
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)),url(http://www.conceptart.org/forums/attachment.php?attachmentid=2092106&d=1423146089);
     display: table;
     top: 0;
     background-size: cover;
+    animation: fadeIn .9s ease-in;
 }
 
 .intro .inner{
@@ -20,6 +21,7 @@ body{
     vertical-align: middle;
     width: 100%;
     max-width: none;
+    
 }
 
 .intro .content{
@@ -31,7 +33,9 @@ body{
 .content img{
     padding: 0px;
     margin: 0px 10px;
-    float: 
+    animation: fadeIn 3s ease-in;
+   
+    
     
 }
 .content h1{
@@ -42,6 +46,7 @@ body{
     color: #ffffff;
     text-shadow: 2px 3px 10px #000000;
     margin:auto;
+    animation: fadeIn 3.8s ease-in;
 }
 
 .content p{
@@ -51,6 +56,7 @@ body{
     text-shadow: 2px 3px 5px #000000;
     color: #ffffff;
     line-height: 1.6;
+    animation: fadeIn 4s ease-in;
 }
 
 /* buttons with hover color*/
@@ -67,7 +73,7 @@ body{
     font-style: italic;
     color:#ffffff;
     text-shadow: 2px 3px 9px #000000;
-        
+     animation: fadeIn 5s ease-in;   
 }
 
 .Enterbtn {
@@ -79,7 +85,7 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
-   
+    animation: fadeIn 5.5s ease-in;
 }
 
 .Enterbtn:hover{
@@ -91,10 +97,24 @@ body{
     margin-top:20%;
     font-family: Open Sans;
     color: #ffffff;
+
+
 }.welcome-footer p{
     font-size: 15px;
+     animation: fadeIn 1s ease-in;
 }
 
+
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+   }
 
    
 
