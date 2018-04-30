@@ -82,7 +82,9 @@ body {
     display:block;
     transition:0.3s;
 }
-
+.navbar input{
+    margin: 15px;
+}
 .side-nav a:hover {
     color:#fff;
 }
