@@ -1,13 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family:"futura Lt BT","Open Sans";
     background-color:#071519;
     color:#cccccc;
     line-height: 1.8;
-    font-size: 20px;
+    font-size: 18 px;
     letter-spacing: .018em;
-    height: 100vh;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
@@ -117,29 +121,23 @@ body {
     line-height: 45px;
     font-family: Open Sans;
 }
-
-
-#boxes {
-    margin-top: 0px;
-    border-top: 3px solid #ffffff;
-   
+//*boxes*//
+#boxes{
+    margin-top: 20px;
 }
 
-#boxes .box {
-    float: left;
-    text-align: center;
+#boxes .box{
+    float:left;
+    text-align:center;
     width: 30%;
+    height: auto;
     padding: 10px;
-    font-size:15px;
-    color: #ffffff;
 }
 
-#boxes .box img {
-    width:150px;
+#boxes .box img{
+    width: 200px;
 }
 
-#boxes .box h3 {
-    font-weight: 100%;
 }
 
 .wrapper {
@@ -306,9 +304,7 @@ img{
    
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 .responsive-gallery {
     padding: 0px;
@@ -356,44 +352,7 @@ img{
 
 .signup-container {
     background-color: #ffffff;
-    
-   
-    
-    
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //*media content*//
@@ -416,7 +375,7 @@ img{
 }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .about-container{
         
     }
@@ -442,6 +401,12 @@ img{
         float: left;
     }
     
+    #boxes .box{
+        float:none;
+        text-align:center;
+        width: 100%;
+    }
+    
 @media only screen and (min-width: 700px) {
     .responsive-gallery {
         width: 49.99999%;
@@ -449,7 +414,6 @@ img{
     }
 } 
 
-@media only screen and (min-width: 500px) {
     .responsive-gallery {
         width: 100%;
     }
